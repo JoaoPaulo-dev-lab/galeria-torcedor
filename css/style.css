@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*Elemento respeita a largura*/
+    font-family: Helvetica;
+}
+
+/*Estilizando o cabeçalho*/
+header {
+    background-color: rgb(40, 22, 82);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid rgb(1, 1, 54);
+}
+
+ul li {
+    display: block;
+    width: 10%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(40, 22, 82);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.5s;
+   
+}
+
+/*Grid de produtos*/
+.container {
+    background-color: #eee;
+    min-height: 60vh;/*O container vai ser 60% da tela(rodapé fica no fundo*/
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px; /*Largura máxima*/
+    margin: 0 auto;/* 0 em cima e em bbaixo e automatico nas laterais, centralizando o conteúdo*/
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px; /*Altura*/
+    width: 100%; /*Deixa a imagem grande*/
+    margin-bottom: 10px; /*Afastar a imagem do conteúdo*/
+    background-position: center;
+    background-size: cover; /* o 'cover' mostra o máximo possível da imagem na área*/
+    transition: 1s;
+}
+
+.product-image:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#img-1 {
+   background-image: url('../img/Pal1.webp');
+}
+
+#img-2 {
+    background-image: url('../img/SP2.webp');
+}
+
+#img-3 {
+    background-image: url('../img/R2.jpg');
+}
+
+#img-4 {
+    background-image: url('../img/bm4.webp');
+}
+
+#img-5 {
+    background-image: url('../img/v5.webp')
+}
+
+#img-6 {
+    background-image: url('../img/R3.jpg');
+}
+
+#img-7 {
+    background-image: url('../img/C.jpg');
+ }
+
+ #img-8 {
+    background-image: url('../img/Fla.jpg');
+ }
+
+ #img-9 {
+    background-image: url('../img/MU.jpg');
+ }
+
+h3 {
+    margin-bottom: 10px;
+    color: rgb(40, 22, 82);
+    border-left: 5px solid rgb(1, 1, 54);
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(40, 22, 82);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(1, 1, 54);
+}
+/*footer*/
+footer {
+    background-color: rgb(40, 22, 82);
+    color: white;
+    border-top: 3px solid rgb(1, 1, 54);
+    text-align: center;
+    padding: 80px;
+}
